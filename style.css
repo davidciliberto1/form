@@ -1,0 +1,157 @@
+body {
+  display: grid;
+  background-size: cover;
+
+  background-color: rgb(216, 128, 128);
+  background-image: url(images/bg-intro-desktop.png);
+  /* background-color: rgba(22, 17, 17, 0.7);  */
+}
+
+.container {
+  margin: 6rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.box1 {
+  display: flexbox;
+  height: 100%;
+  float: left;
+  color: white;
+  padding-right: 1rem;  margin: 1.5rem;
+  border: 1rem rgb(141, 130, 238);
+}
+
+#learn {
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  padding-bottom: 1rem;
+}
+
+#parrafo {
+  max-width: 100%;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.box2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#tryIt {
+  color: white;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: rgb(93, 70, 199);
+  box-shadow: 5px 5px 0px 0px rgb(170, 76, 107);
+
+}
+
+#tryIt:hover {
+  cursor: pointer;
+}
+
+#box3 {
+  width: 100%;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 5px 5px 0px 0px rgb(170, 76, 107);
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* width: 100%; */
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 0.2rem;  
+  }
+
+#firstname {
+  border: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-right: 0.1rem;
+  padding-left: 0.1rem;
+  padding-bottom: 0.3rem;
+}
+
+#lastname {
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 0.3rem;
+  padding-right: 0.1rem;
+  padding-left: 0.1rem;
+  padding-bottom: 0.3rem;
+}
+
+#email {
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 0.3rem;
+  padding-right: 0.1rem;
+  padding-left: 0.1rem;
+  padding-bottom: 0.3rem;
+}
+
+#password {
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 0.3rem;
+  padding-right: 0.1rem;
+  padding-left: 0.1rem;
+  padding-bottom: 0.3rem;
+}
+
+.botonClaim {
+  justify-content: center;
+  display: flex;
+  /* padding: 2rem; */
+  padding-bottom: 0.5rem;
+}
+
+#claim {
+  font-weight: 700;
+  color: white;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  padding-left: 3.2rem;
+  padding-right: 3.2rem;
+  background-color: rgb(64, 187, 160);
+  border-radius: 10px;
+}
+
+p {
+  text-align: center;
+  font-size: 0.2rem;
+  margin-top: 0;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+#terms {
+  text-decoration: none;
+  color: red;
+}
+
+footer {
+  object-position: bottom;
+}
