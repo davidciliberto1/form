@@ -8,3 +8,4 @@ function focusfunc(){
 inputs.forEach(input => {
     input.addEventListener('focus', focusfunc);
 });
+
